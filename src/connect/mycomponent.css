@@ -1,0 +1,32 @@
+.my-component {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .connect-button,
+  .disconnect-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .connect-button {
+    background-color: green;
+  }
+  
+  .disconnect-button {
+    background-color: red;
+  }
+  
+  .connecting-text,
+  .disconnected-text,
+  .waiting-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

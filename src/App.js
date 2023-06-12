@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ButtonControls from "./increment/ButtonControls";
+import Connect from "./connect/Connect";
+import TaskList from "./tasklist/TaskList";
+import Table from "./table/Table";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+    <ButtonControls />
+    <Connect />
+    <TaskList />
+    <Table />
+    </>
   );
 }
 

@@ -1,0 +1,56 @@
+.table {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    background-color: #1a1a33;
+    color: #ffffff;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+  }
+  
+  th {
+    background-color: #33334d;
+  }
+  
+  .dead {
+    text-decoration: line-through;
+  }
+  
+  .kill-button,
+  .revive-button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .kill-button {
+    background-color: #ff0000;
+  }
+  
+  .revive-button {
+    background-color: #ff0000;
+  }
+  
+  .reset-button {
+    background-color: #00ff00;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  

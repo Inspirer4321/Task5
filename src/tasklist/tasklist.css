@@ -1,0 +1,33 @@
+.input-field {
+    border: 2px solid black;
+  }
+  
+  .input-field-green {
+    border-color: green;
+  }
+  
+  .add-button {
+    background-color: black;
+    color: white;
+  }
+  
+  .add-button-green {
+    background-color: green;
+  }
+  
+  .word-list {
+    margin-top: 10px;
+  }
+  
+  .word-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .remove-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }

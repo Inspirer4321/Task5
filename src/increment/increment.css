@@ -1,0 +1,29 @@
+.button-controls {
+    margin: 20px;
+  }
+  
+  .hidden-button {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .count-display {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .increment-button,
+  .decrement-button {
+    background-color: purple;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  .increment-button:hover,
+  .decrement-button:hover {
+    background-color: #6a0dad;
+  }
+  
